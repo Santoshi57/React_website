@@ -5,12 +5,13 @@ import Home from './Components/Pages/Home';
 class App extends Component{
 render() {
   return (
+
+   <div>
   <PageWrapper>
 <Home/>
-
-
-
     </PageWrapper>
+    <h1>Hello</h1>
+    </div> 
     
   );
 }
